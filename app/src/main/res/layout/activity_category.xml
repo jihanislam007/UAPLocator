@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="devsbox.jihanislam007.uaplocator.CategoryActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingTop="24dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/uap"></LinearLayout>
+
+            <Button
+                android:onClick="locatme"
+                android:layout_width="180dp"
+                android:layout_height="60dp"
+                android:background="#00a8c225"
+                android:text="Locate me"
+                android:textColor="#ed7234"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginTop="50dp"/>
+
+            <Button
+                android:onClick="whereTogo"
+                android:layout_width="180dp"
+                android:layout_height="60dp"
+                android:background="#00a8c225"
+                android:text="Where to go"
+                android:textColor="#ed7234"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginTop="24dp" />
+
+            <Button
+                android:onClick="information"
+                android:layout_width="180dp"
+                android:layout_height="60dp"
+                android:background="#00a8c225"
+                android:text="information"
+                android:textColor="#ed7234"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginTop="24dp"/>
+
+            <Button
+                android:onClick="back"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:background="#00a8c225"
+                android:text="Back to homepage"
+                android:textColor="#ed7234"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginTop="24dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

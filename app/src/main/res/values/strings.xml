@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UAP Locator</string>
+    <string name="let_s_explore_uap">Let\'s Explore UAP</string>
+    <string name="title_activity_map">MapView</string>
+</resources>
